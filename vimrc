@@ -133,3 +133,11 @@ autocmd vimenter * NERDTree
 " 设置NerdTree打开的快捷键,可自行更改
 map <F2> :NERDTreeMirror<CR>
 map <F2> :NERDTreeToggle<CR>
+
+"nerdtree配置
+"窗口位置
+let g:NERDTreeWinPos='left'
+"设置宽度
+let NERDTreeWinSize=27
+
+:hi Directory guifg=#FF0000 ctermfg=red
